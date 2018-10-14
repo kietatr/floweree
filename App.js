@@ -73,7 +73,7 @@ class GameScreen extends React.Component {
             if (imageCount < 6){
               imageCount++;
             }
-            this.forceUpdate();
+            this.forceUpdate(); //peacehelp
           }}>
             <Image
               source={require("./assets/buttons/watering_can.png")}
